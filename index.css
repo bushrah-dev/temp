@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 100%;
+    background: blanchedalmond;
+    padding: 40px;
+    border-radius: 12px;
+
+}
+.card input{
+    max-width: 100px;
+    height: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.card h4{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
